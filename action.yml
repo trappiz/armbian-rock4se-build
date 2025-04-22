@@ -125,7 +125,7 @@ runs:
     - name: "Checkout Armbian build framework"
       uses: actions/checkout@v4
       with:
-        repository: armbian/build
+        repository: trappiz/armbian-rock4se-build
         ref: ${{ inputs.armbian_branch }}
         clean: false
         path: build
